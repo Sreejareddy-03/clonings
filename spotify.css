@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:SpotifyMixUI,CircularSp,Helvetica,Arial, Helvetica, sans-serif ;
+}
+
+
+#nav{
+    border:2px solid;
+    height:75px;
+    background-color: #000;
+
+}
+#sub-nav{
+    /* border:2px solid red; */
+    height:inherit;
+    width:80%;
+    margin:auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#sub-nav span svg{
+    height:2em;
+    fill:#fff;
+
+}
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    align-items: center;
+}
